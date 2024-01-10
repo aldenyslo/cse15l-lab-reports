@@ -12,6 +12,8 @@ No output because it successfully changed to the home directory.
 
 Output is not an error.
 
+</br>
+</br>
 
 2) Share an example of using the command with a path to a directory as an argument.
 
