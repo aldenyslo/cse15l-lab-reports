@@ -2,7 +2,7 @@
 
 ## Using cd
 
-1. Share an example of using the command with no arguments.
+1) Share an example of using the command with no arguments.
 
 ![Image](screenshots/cd_no_args.png)
 
@@ -13,7 +13,7 @@ No output because it successfully changed to the home directory.
 Output is not an error.
 
 
-2. Share an example of using the command with a path to a directory as an argument.
+2) Share an example of using the command with a path to a directory as an argument.
 
 ![Image](screenshots/cd_messages.png)
 
@@ -24,7 +24,7 @@ No output as it successfully changed the working directory to /home/lecture1/mes
 Output is not an error
 
 
-3. Share an example of using the command with a path to a file as an argument.
+3) Share an example of using the command with a path to a file as an argument.
 
 ![Image](screenshots/cd_file.png)
 
@@ -37,7 +37,7 @@ Output is an error, because en-us.txt is not a directory.
 
 ## Using ls
 
-1. Share an example of using the command with no arguments.
+1) Share an example of using the command with no arguments.
 
 ![Image](screenshots/ls_no_args.png)
 
@@ -48,7 +48,7 @@ Output shows all the files that are in the working directory.
 Output is not an error.
 
 
-2. Share an example of using the command with a path to a directory as an argument.
+2) Share an example of using the command with a path to a directory as an argument.
 
 ![Image](screenshots/ls_directory.png)
 
@@ -59,7 +59,7 @@ Output lists all files in the directory passed as an argument.
 Output is not an error.
 
 
-3. Share an example of using the command with a path to a file as an argument.
+3) Share an example of using the command with a path to a file as an argument.
 
 ![Image](screenshots/ls_file.png)
 
@@ -72,7 +72,7 @@ Output is not an error.
 
 ## Using cat
 
-1. Share an example of using the command with no arguments.
+1) Share an example of using the command with no arguments.
 
 ![Image](screenshots/cat_no_args.png)
 
@@ -83,7 +83,7 @@ The command line hangs because there is no file to read from.
 Output is not exactly an error.
 
 
-2. Share an example of using the command with a path to a directory as an argument.
+2) Share an example of using the command with a path to a directory as an argument.
 
 ![Image](screenshots/cat_directory.png)
 
@@ -94,7 +94,7 @@ Output is an error message saying messages is a directory, as it cannot read the
 Output is an error, because messages is a directory and not a file.
 
 
-3. Share an example of using the command with a path to a file as an argument.
+3) Share an example of using the command with a path to a file as an argument.
 
 ![Image](screenshots/cat_file.png)
 
