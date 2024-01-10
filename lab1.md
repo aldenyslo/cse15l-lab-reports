@@ -8,7 +8,7 @@
 
 Working directory: /home/lecture1
 
-I got that output because it simply changed to the home directory.
+No output because it successfully changed to the home directory.
 
 Output is not an error.
 
@@ -19,7 +19,7 @@ Output is not an error.
 
 Working directory: /home/lecture1
 
-Output means that it changed the working directory to /home/lecture1/messages.
+No output as it successfully changed the working directory to /home/lecture1/messages.
 
 Output is not an error
 
@@ -89,7 +89,7 @@ Output is not exactly an error.
 
 Working directory: /home/lecture1
 
-Output is an error message saying messages is a directory, cannot read the directory itself.
+Output is an error message saying messages is a directory, as it cannot read the directory itself.
 
 Output is an error, because messages is a directory and not a file.
 
