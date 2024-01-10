@@ -12,6 +12,7 @@ I got that output because it simply changed to the home directory.
 
 Output is not an error.
 
+
 2. Share an example of using the command with a path to a directory as an argument.
 
 ![Image](screenshots/cd_messages.png)
@@ -21,6 +22,7 @@ Working directory: /home/lecture1
 Output means that it changed the working directory to /home/lecture1/messages.
 
 Output is not an error
+
 
 3. Share an example of using the command with a path to a file as an argument.
 
@@ -45,6 +47,7 @@ Output shows all the files that are in the working directory.
 
 Output is not an error.
 
+
 2. Share an example of using the command with a path to a directory as an argument.
 
 ![Image](screenshots/ls_directory.png)
@@ -54,6 +57,7 @@ Working directory: /home/lecture1
 Output lists all files in the directory passed as an argument.
 
 Output is not an error.
+
 
 3. Share an example of using the command with a path to a file as an argument.
 
@@ -70,8 +74,32 @@ Output is not an error.
 
 1. Share an example of using the command with no arguments.
 
+![Image](screenshots/cat_no_args.png)
+
+Working directory: /home/lecture1
+
+The command line hangs because there is no file to read from.
+
+Output is not exactly an error.
+
 
 2. Share an example of using the command with a path to a directory as an argument.
 
+![Image](screenshots/cat_directory.png)
+
+Working directory: /home/lecture1
+
+Output is an error message saying messages is a directory, cannot read the directory itself.
+
+Output is an error, because messages is a directory and not a file.
+
 
 3. Share an example of using the command with a path to a file as an argument.
+
+![Image](screenshots/cat_file.png)
+
+Working directory: /home/lecture1
+
+The command reads and displays the contents of the specified file as output, in this case Hello.java.
+
+Output is not an error.
