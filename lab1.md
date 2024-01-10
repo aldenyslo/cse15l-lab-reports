@@ -25,7 +25,8 @@ No output as it successfully changed the working directory to /home/lecture1/mes
 
 Output is not an error
 
-</br>
+&nbsp;
+&nbsp;
 
 3) Share an example of using the command with a path to a file as an argument.
 
@@ -37,7 +38,8 @@ Got output because en-us.txt is not a directory, cannot change working directory
 
 Output is an error, because en-us.txt is not a directory.
 
-</br>
+&nbsp;
+&nbsp;
 
 ## Using ls
 
@@ -51,7 +53,8 @@ Output shows all the files that are in the working directory.
 
 Output is not an error.
 
-</br>
+&nbsp;
+&nbsp;
 
 2) Share an example of using the command with a path to a directory as an argument.
 
@@ -63,7 +66,8 @@ Output lists all files in the directory passed as an argument.
 
 Output is not an error.
 
-</br>
+&nbsp;
+&nbsp;
 
 3) Share an example of using the command with a path to a file as an argument.
 
@@ -75,7 +79,8 @@ Output lists the file that is passed as an argument.
 
 Output is not an error.
 
-</br>
+&nbsp;
+&nbsp;
 
 ## Using cat
 
@@ -89,7 +94,8 @@ The command line hangs because there is no file to read from.
 
 Output is not exactly an error.
 
-</br>
+&nbsp;
+&nbsp;
 
 2) Share an example of using the command with a path to a directory as an argument.
 
@@ -101,7 +107,8 @@ Output is an error message saying messages is a directory, as it cannot read the
 
 Output is an error, because messages is a directory and not a file.
 
-</br>
+&nbsp;
+&nbsp;
 
 3) Share an example of using the command with a path to a file as an argument.
 
