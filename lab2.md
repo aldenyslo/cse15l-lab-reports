@@ -43,6 +43,8 @@ class ChatServer {
     }
 }
 ```
+&nbsp;
+&nbsp;
 
 ![Image](screenshots/chatserver1.png)
 This first calls the `handleRequest` method of the `Handler` class. 
@@ -67,6 +69,9 @@ Afterwards, I save the message and the user strings into variables by calling `s
 &nbsp;
 
 After this specific request, the `chatStr` field gets updated into `"jpolitz: Hello\n"`.
+
+&nbsp;
+&nbsp;
 
 ![Image](screenshots/chatserver2.png)
 This first calls the `handleRequest` method of the `Handler` class. 
