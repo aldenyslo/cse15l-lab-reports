@@ -46,7 +46,7 @@ class ChatServer {
 }
 ```
 
-![Image](screenshots/chatserver1)
+![Image](screenshots/chatserver1.png)
 This first calls the `handleRequest` method of the `Handler` class. 
 It then calls the `getPath` method on the URL to see if the path string is equal to `/add-message` using the `equals` method.
 If it is, then `getQuery` gets called on the URL to retrieve the query string, and I use `split` method at the `&` to divide the two queries.
@@ -62,7 +62,7 @@ Afterwards, I save the message and the user strings into variables by calling `s
 After this specific request, the `chatStr` field gets updated into `"jpolitz: Hello\n"`.
 
 
-![Image](screenshots/chatserver2)
+![Image](screenshots/chatserver2.png)
 
 
 ## Part 2 - SSH Key
