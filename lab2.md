@@ -99,13 +99,18 @@ After this specific request, the `chatStr` field gets updated into `"jpolitz: He
 
 The absolute path to the private key is `/Users/aldenlo/.ssh/id_rsa`
 
+&nbsp;
+
 ### Public Key
 ![Image](screenshots/publickey.png)
 
 The absolute path to the public key is `/home/linux/ieng6/oce/75/675/allo/.ssh/authorized_keys`
 
+&nbsp;
+
 ### Logging Into ieng6 Without Password
 ![Image](screenshots/noPwSSH.png)
 
+&nbsp;
 
 ## Part 3 - What I've learnt
