@@ -46,6 +46,7 @@ class ChatServer {
 &nbsp;
 &nbsp;
 
+### Using `/add-message`
 ![Image](screenshots/chatserver1.png)
 This first calls the `handleRequest` method of the `Handler` class. 
 It then calls the `getPath` method on the URL to see if the path string is equal to `"/add-message"` using the `equals` method.
