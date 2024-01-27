@@ -124,6 +124,7 @@ The absolute path to the public key is `/home/linux/ieng6/oce/75/675/allo/.ssh/a
 
 ## Part 3 - What I've learnt
 
-Something I've learnt is how to break down a URL into its different parts, such as the path and query. I've also learnt more about
+Something I've learnt is how to break down a URL into its different parts, such as the path and query, which helps me write my code
+when trying to extract information from URL strings. I've also learnt more about
 what `ssh` does and how these different servers interact, especially thinking about remoting into the ieng6 machines and how
 it is different from coding on my own machine.
