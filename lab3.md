@@ -61,6 +61,8 @@ with only 0s. The fix switches that around so that it is the new array that is b
 
 This option shows the line numbers of the specified file.
 
+This is useful to reference a particular line in a file and be able to quickly look up which it is without needing to open it.
+
 `less -N find-results.txt`
 
 ```
@@ -124,11 +126,14 @@ This option shows the line numbers of the specified file.
      ...
 ```
 
-Source: [Link](https://linuxize.com/post/less-command-in-linux/)
+[Source](https://linuxize.com/post/less-command-in-linux/)
 
 ### `-X`
 
 This option leaves the output in the terminal screen.
+
+This is useful to refer back to when doing other command line operations to avoid needing two terminal windows
+or executing the `less` command multiple times.
 
 `less -X find-results.txt`
 
@@ -177,6 +182,99 @@ class FileHelpers {
 ...
 ```
 
-Source: [Link](https://linuxize.com/post/less-command-in-linux/)
+[Source](https://linuxize.com/post/less-command-in-linux/)
 
-### 
+### `-F`
+
+This option shows file contents directly on terminal if the entire file can be shown on the first screen.
+
+This is useful to save having to press 'q' and refer to other command line operations if the file is really short.
+
+`less -F find-results.txt`
+
+```
+technical/plos
+technical/plos/pmed.0020273.txt
+technical/plos/journal.pbio.0030032.txt
+technical/plos/pmed.0020065.txt
+technical/plos/pmed.0020071.txt
+technical/plos/pmed.0020059.txt
+technical/plos/pmed.0010039.txt
+technical/plos/journal.pbio.0020354.txt
+technical/plos/pmed.0010010.txt
+technical/plos/journal.pbio.0020156.txt
+technical/plos/pmed.0020104.txt
+technical/plos/pmed.0020272.txt
+technical/plos/pmed.0020258.txt
+technical/plos/pmed.0020099.txt
+technical/plos/journal.pbio.0020140.txt
+technical/plos/journal.pbio.0020183.txt
+technical/plos/journal.pbio.0020430.txt
+technical/plos/journal.pbio.0020394.txt
+technical/plos/journal.pbio.0020431.txt
+technical/plos/journal.pbio.0020419.txt
+technical/plos/pmed.0010013.txt
+...
+```
+
+`less -F count-txts.sh`
+
+```
+aldenlo@Aldens-Laptop docsearch % less -F count-txts.sh
+find $1 > find-results.txt
+grep ".txt" find-results.txt > grep-results.txt
+wc grep-results.txt
+```
+[Source](https://phoenixnap.com/kb/less-command-in-linux)
+
+### `-m`
+
+This option shows the percentage into the file contents.
+
+This is useful to approximately gauge how many lines there are left when scrolling through.
+
+`less -m find-results.txt`
+
+```
+technical/plos
+technical/plos/pmed.0020273.txt
+technical/plos/journal.pbio.0030032.txt
+technical/plos/pmed.0020065.txt
+technical/plos/pmed.0020071.txt
+technical/plos/pmed.0020059.txt
+technical/plos/pmed.0010039.txt
+technical/plos/journal.pbio.0020354.txt
+technical/plos/pmed.0010010.txt
+technical/plos/journal.pbio.0020156.txt
+technical/plos/pmed.0020104.txt
+technical/plos/pmed.0020272.txt
+technical/plos/pmed.0020258.txt
+technical/plos/pmed.0020099.txt
+technical/plos/journal.pbio.0020140.txt
+technical/plos/journal.pbio.0020183.txt
+technical/plos/journal.pbio.0020430.txt
+6%
+```
+
+`less -m DocSearchServer.java`
+
+```
+import java.io.File;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.InetAddress;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Collections;
+
+class FileHelpers {
+    static List<File> getFiles(Path start) throws IOException {
+        File f = start.toFile();
+        List<File> result = new ArrayList<>();
+        if(f.isDirectory()) {
+DocSearchServer.java 19%
+```
