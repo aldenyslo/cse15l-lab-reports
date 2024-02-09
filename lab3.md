@@ -124,7 +124,7 @@ This option shows the line numbers of the specified file.
      ...
 ```
 
-Source: [https://linuxize.com/post/less-command-in-linux/]
+Source: [Link](https://linuxize.com/post/less-command-in-linux/)
 
 ### `-X`
 
@@ -177,6 +177,6 @@ class FileHelpers {
 ...
 ```
 
-Source: [https://linuxize.com/post/less-command-in-linux/]
+Source: [Link](https://linuxize.com/post/less-command-in-linux/)
 
 ### 
