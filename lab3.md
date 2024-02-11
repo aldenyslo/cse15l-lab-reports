@@ -55,6 +55,9 @@ static int[] reversed(int[] arr) {
 The fix addresses the issue as the old code overwrites the original array with the new array populated
 with only 0s. The fix switches that around so that it is the new array that is being edited, not the original one.
 
+&nbsp;
+&nbsp;
+
 ## Part 2 - Researching Commands
 
 ### `-N`
@@ -128,6 +131,8 @@ This is useful to reference a particular line in a file and be able to quickly l
 
 [Source](https://linuxize.com/post/less-command-in-linux/)
 
+&nbsp;
+
 ### `-X`
 
 This option leaves the output in the terminal screen.
@@ -184,6 +189,8 @@ class FileHelpers {
 
 [Source](https://linuxize.com/post/less-command-in-linux/)
 
+&nbsp;
+
 ### `-F`
 
 This option shows file contents directly on terminal if the entire file can be shown on the first screen.
@@ -226,6 +233,8 @@ grep ".txt" find-results.txt > grep-results.txt
 wc grep-results.txt
 ```
 [Source](https://phoenixnap.com/kb/less-command-in-linux)
+
+&nbsp;
 
 ### `-m`
 
