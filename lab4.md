@@ -33,3 +33,8 @@ I then typed `:wq<enter>` to save the results and exit vim.
 I pressed `<up><up><enter>` to retrieve the `bash test.sh` command I ran earlier and run it.
 
 ## Commit and push the resulting change to your Github account (you can pick any commit message!)
+
+![Image](screenshots/commit_push.png)
+
+I typed `git add .<enter>` to stage my changes. Then, I typed `git commit -m "commit"<enter>` to save the updates.
+Afterwards, I typed `git push<enter>` to push the changes to GitHub.
