@@ -2,6 +2,7 @@
 
 ## Log into ieng6
 ![Image](screenshots/login_ieng6.png)
+
 I typed `ssh allo@ieng6.ucsd.edu<enter>` to get into ieng6.
 After it connected, I double clicked on the `cs15lwi24` in the suggestion prompt, pressed `<Cmd+C>` to copy, 
 clicked back into the input, and pressed `<Cmd+V><enter>` to work on the CSE15L course.
@@ -9,11 +10,13 @@ clicked back into the input, and pressed `<Cmd+V><enter>` to work on the CSE15L 
 ## Clone your fork of the repository from your Github account (using the SSH URL)
 
 ![Image](screenshots/fork_repo.png)
+
 I copied the ssh URL from GitHub. In the command line, I typed `git clone <Cmd+V><enter>` to clone the fork of the repository.
 
 ## Run the tests, demonstrating that they fail
 
 ![Image](screenshots/test_fail.png)
+
 I first entered the lab7 directory by typing `cd lab7<enter>`. I then ran the `test.sh` file by typing `bash test<tab><enter>`.
 
 ## Edit the code file to fix the failing test
